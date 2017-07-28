@@ -1,0 +1,16 @@
+
+  <h1>Review</h1>
+  <form action="" method="post" name="review">
+      {{ form.hidden_tag() }}
+      <p>
+          Restaruant Name:<br>
+          {{ form.name(size=80) }}<br>
+      </p>
+      <p> 
+	Address Search:
+	{{ form.search_info  }}</p>
+	<p>
+	Score: 
+	{{ form.score }} </p>
+      <p><input type="submit" value="Sign In"></p>
+  </form>
